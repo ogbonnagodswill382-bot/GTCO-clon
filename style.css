@@ -23,29 +23,6 @@ body {
     margin: 0;
 }
 
-/* Tablet */
-@media (max-width: 768px) {
-    .notice {
-        padding: 18px 5%;
-        font-size: 16px;
-    }
-
-    .notice h3 {
-        font-size: 20px;
-    }
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-    .notice {
-        padding: 15px 4%;
-        font-size: 14px;
-    }
-
-    .notice h3 {
-        font-size: 18px;
-    }
-}
 nav{
     display: flex;
     color: rgb(72, 71, 71);
@@ -164,37 +141,7 @@ nav{
 .num-1 .num-2:hover .dropdown-1{
     display: block;
 }
-/* MOBILE */
-@media (max-width: 768px) {
-    /* .hamburger {
-        display: block;
-    } */
 
-    .thr_nav {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background: white;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        padding: 20px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    .thr_nav.active {
-        display: flex;
-    }
-
-    .top-nav {
-        flex-direction: column;
-    }
-
-    .fir_nav,
-    .sec_nav {
-        width: 100%;
-    }
-}  
 
 /* ------------------------------- HERO SLIDE BEGINS ------------------------------- */
 /* RESET */
